@@ -27,7 +27,7 @@ import {HttpClientModule} from "@angular/common/http";
     HttpClientModule,
   ],
   providers: [
-    provideClientHydration()
+    provideClientHydration(),
   ],
   bootstrap: [AppComponent]
 })
